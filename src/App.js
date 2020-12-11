@@ -2,13 +2,13 @@ import { Container } from 'semantic-ui-react';
 import './App.scss';
 import Footer from './components/Footer';
 import TopHeader from './components/Header';
-import MainContent from './components/MainContent';
+import Content from './components/Content';
 
 function App() {
   return (
     <Container fluid>
       <TopHeader />
-      <MainContent />
+      <Content />
       <Footer />
     </Container>
   );
