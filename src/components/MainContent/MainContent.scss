@@ -1,0 +1,28 @@
+.ui.fluid.container.content-container {
+  display: flex;
+  min-height: 50vh;
+  width: 100%;
+
+  .ui.segment.main-content {
+    width: 80%;
+    margin: 0;
+    padding: 30px;
+    border: none;
+
+    .ui.divided.very.relaxed.list {
+      .item {
+        .btn-group-action {
+          .ui.button {
+            background: none;
+          }
+        }
+      }
+    }
+  }
+
+  .ui.segment.side-bar {
+    width: 20%;
+    padding: 0;
+    margin: 0;
+  }
+}
